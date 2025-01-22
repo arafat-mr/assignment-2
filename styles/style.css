@@ -375,7 +375,7 @@
    .foot-btn button{
     background-color: black;
     color: white;
-    font-family: "Quicksand";
+    /* font-family: "Quicksand"; */
     text-align: center;
     margin: 40px 0;
     padding: 10px 25px;
@@ -484,6 +484,10 @@
      position: relative;
      left: 100px;
   }
+  .curriculam-title h3{
+    font-size: 1.7rem;
+    font-weight: 800;
+  }
   .standard-cards{
     flex-direction: column;
   }
@@ -511,6 +515,9 @@
       width: 80%;
     margin: 0 auto;
       
+    }
+    .story-container{
+      margin: 0 0 0 -25px;
     }
   .card-info{
     height: 70px;
@@ -541,6 +548,9 @@
     margin-left: 40px;
     padding: 5px 20px;
     
+  }
+  .foot-btn button{
+    margin-right: 20px;
   }
   
   }
