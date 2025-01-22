@@ -83,7 +83,7 @@
     align-items: center;
   }
   .hero img{
-    width: 374px;
+    width: 400px;
   }
   #Empowering{
     font-weight: bold;
@@ -120,16 +120,13 @@
    
     
   }
-  
-
- 
-
   .curriculam-title h3{
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
-    padding: 30px;
-    margin: 40px 0 40px;
+    padding-top: 40px;
+    padding-left: 100px;
+    margin: -60px 0 50px;
   }
   .standard{
     width: 100%;
@@ -202,7 +199,80 @@
     text-align: center;
     font-size: 1.5rem;
     padding: 10px;
+    margin-bottom: 20px;
   }
+  .container{
+    max-width: 1366px;
+    background: linear-gradient(180deg,white,#FFE2AE)
+  }
+  .story-section{
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  .stories{
+    font-size: 2rem;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 70px;
+    background-image: url('../assets/bg.png');
+    background-size: cover;
+   
+    
+  }
+  .stories h3{
+    /* margin-top: 30px; */
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .story-container{
+    width: 100%;
+    /* height: 700px; */
+    ;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+   
+  }
+  .main-card{
+    width: 400px;
+    background: rgb(255, 254, 254);
+   /* box-shadow: 20px 20px 20px #DEF5FF; */
+   /* border-radius: 10px; */
+   /* padding: 10px; */
+   border-radius: 10px;
+  }
+  .main-card img{
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .main-card button{
+    background: #3CD8E8;
+    padding: 15px;
+    border-radius: 20px;
+    border: 0;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    color: white;
+    font-family: "Quicksand";
+    
+  }
+  .card-info{
+    padding: 25px;
+  }
+  .card-story{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+  }
+  .card img{
+    width: 290px;
+    height: 150px;
+  }
+ 
   @media screen and (max-width:576px) {
     .menu ul{
         display: none;
