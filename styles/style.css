@@ -6,6 +6,9 @@
     font-weight: 500;
     font-style: normal;
   }
+  *{
+    margin: 0;padding: 0;
+  }
   header{
     max-width: 1366px;
     /* margin: 10px; */
@@ -157,8 +160,8 @@
     font-size: 20px;
   }
   .card img{
-    width: 100px;
-    height: auto;
+    width: 50%;
+    /* height: auto; */
   }
   .card p{
     font-size: 1rem;
@@ -203,12 +206,15 @@
   }
   .container{
     max-width: 1366px;
-    background: linear-gradient(180deg,white,#FFE2AE)
+    background: linear-gradient(180deg,white,#FFE2AE);
+
+    height: 1000px;
   }
   .story-section{
     width: 80%;
     margin: 0 auto;
-    
+    /* height: 700px;
+     */
   }
   .stories{
     font-size: 2rem;
@@ -224,15 +230,17 @@
     /* margin-top: 30px; */
     padding-top: 50px;
     margin-bottom: 50px;
+    
   }
 
   .story-container{
-    width: 100%;
+    max-width:1366px; 
     /* height: 700px; */
     ;
     display: flex;
     flex: 1;
     justify-content: space-between;
+    margin-top: -40px;
    
   }
   .main-card{
@@ -242,6 +250,7 @@
    /* border-radius: 10px; */
    /* padding: 10px; */
    border-radius: 10px;
+   height: 36rem;
   }
   .main-card img{
     width: 400px;
@@ -266,13 +275,162 @@
   .card-story{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 20px;
+    grid-gap: 8px;
+    margin-left: 20px;
   }
-  .card img{
-    width: 290px;
+  .card-2{
+    width: 300px;
+    height:300px ;
+    box-shadow: 10px 10px 0.5 rgb(224, 217, 217);
+    /* gap: 20px; */
+   
+  }
+  .card-2 img{
+    width: 300px;
     height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .card-2 .card-info{
+    background-color: #fff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .card-2 h3{
+    margin-top: 30px;
+  }
+  #btn-1{
+    background-color: #95B226;
+    color:  white;
+    font-family: "Quicksand";
+    padding: 8px;
+    border-radius: 15px;
+    border: 0;
+    position: relative;
+    top: -20px;
+    left: 25px;
+  }
+  #btn-2{
+    background-color: #f36208;
+    color:  white;
+    font-family: "Quicksand";
+    padding: 8px;
+    border-radius: 15px;
+    border: 0;
+    position: relative;
+    top: -20px;
+    left: 25px;
+  }
+  #btn-3{
+    background-color: #5D58F0;
+    color:  white;
+    font-family: "Quicksand";
+    padding: 8px;
+    border-radius: 15px;
+    border: 0;
+    position: relative;
+    top: -20px;
+    left: 25px;
+  }
+  #btn-4{
+    background-color: #25d10e;
+    color:  white;
+    font-family: "Quicksand";
+    padding: 8px;
+    border-radius: 15px;
+    border: 0;
+    position: relative;
+    top: -20px;
+    left: 25px;
   }
  
+  .card-2 button{
+    
+    position: relative;
+  }
+  
+   .card-2 .card-info{
+    margin-top: -50px;
+   }
+   .foot{
+    width: 100%;
+    background-image: url('../assets/bg.png');
+    background-size: cover;
+    height: 200px;
+   }
+   .foot-btn{
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    
+   }
+   .foot-btn button{
+    background-color: black;
+    color: white;
+    font-family: "Quicksand";
+    text-align: center;
+    margin: 40px 0;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 10px;
+    font-family: "Quicksand";
+    /* background-image: url('../assets/bg.png'); */
+
+   }
+   footer{
+    max-width: 1366px;
+    background-color:#01ACFD;
+    /* display: flex; */
+    height: 200px;
+    padding: 100px;
+    /* justify-content: space-between; */
+    color: white;
+   }
+   .main-2{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   }
+   .logo-cont{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+   }
+   .logo-cont img{
+    width: 80px;
+    margin-bottom: 10px;
+   }
+   .logo-cont h3{
+    font-size: 30px;
+   }
+    .logo-2{
+    display: flex;
+    flex-direction: column;
+   }
+   #about{
+    font-weight: 600;
+    color: white;
+    
+   }
+   .about ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   }
+   .about ul li{
+    list-style: none;
+   }
+   .social{
+
+    gap: 20px;
+   }
+   .social img{
+    margin-top: 15px;
+   }
   @media screen and (max-width:576px) {
     .menu ul{
         display: none;
