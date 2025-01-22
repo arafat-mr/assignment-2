@@ -51,7 +51,7 @@
     color: orange;
     font-weight: bold;
   }
-  #about{
+  #about-1{
     font-size: 1rem;
     font-weight: bold;
     color: skyblue;
@@ -167,17 +167,23 @@
   .card p{
     font-size: 1rem;
   }
+  .card a{
+    text-decoration: none;
+  }
   #p-1{
     color:#11a6e6 ;
     font-weight:bold;
+    font-size: 1rem;
   }
   #p-2{
     color: #f6c762;
     font-weight: bold;
+    font-size: 1rem;
   }
   #p-3{
     color: #a364f6;
     font-weight: bold;
+    font-size: 1rem;
   }
   #card-1{
     
